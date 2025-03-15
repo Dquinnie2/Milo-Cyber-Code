@@ -3,4 +3,4 @@ phases:
   build:
     commands:
       - echo "Running  SonarCloud Analysis"
-      - mvn verify sonar:sonar -Dsonar.projectKey=Goat-Security -Dsonar.organization=Goat-Security -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=860be940f8b9fe96a47768dcfc33414195979edf
+      - mvn verify sonar:sonar -Dsonar.projectKey=Goat-Security -Dsonar.organization=Goat-Security -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$860be940f8b9fe96a47768dcfc33414195979edf
