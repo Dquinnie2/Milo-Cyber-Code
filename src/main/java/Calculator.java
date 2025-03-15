@@ -1,4 +1,4 @@
-public class Calculator {
+public class Calculator.java {
 
     public int addition(String arguments) {
 
